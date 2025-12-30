@@ -89,6 +89,7 @@ export const AuthPage: React.FC = () => {
           <ResetPasswordForm
             title="Choose a new password"
             email={pendingEmail}
+            token={resetToken}
             onResetSuccess={handleResetSuccess}
           />
         )}

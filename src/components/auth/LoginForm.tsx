@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { useAuth } from "../../hooks/useAuth"
 import { useToast } from "../ui/Toast"
 import { LoadingSpinner } from "../ui/LoadingSpinner"
